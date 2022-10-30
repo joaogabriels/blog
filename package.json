@@ -1,7 +1,14 @@
 {
   "name": "blog",
+  "author": "João Gabriel Dos Santos Evangelista",
+  "description": "My personal blog",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
